@@ -1,6 +1,7 @@
 import turtle
 import random
 
+
 def comchest(spot, card):
     # community chest cards
     card = (card % 16)
@@ -33,7 +34,7 @@ def chance(spot, card):
     elif card == 14:
         return 11
     elif card == 15:
-        return (spot - 3)
+        return spot - 3
     elif card == 11:
         return 10
     elif card == 13:
