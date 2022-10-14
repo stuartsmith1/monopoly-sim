@@ -142,8 +142,10 @@ def main():
     for i in range(40):
         properties.insert(i, i)
     properties[0] = "Go"
+    properties[5] = "Reading RR"
     properties[10] = "Jail"
     properties[24] = "Illinois"
+    properties[39] = "Boardwalk"
     display(board, iterations, properties)
     quit = 0
     while quit == 0:
